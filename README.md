@@ -44,3 +44,10 @@ abrir o localhost\"local onde esta o php"\boas_vindas.php
 
 Para visualizar como o restaurante recebe os pedidos
 abrir o localhost\"local onde esta o php"\processar_pedido.php
+
+Video explicativo:
+
+
+
+https://github.com/rafajob/Senac_PI/assets/56689600/715847a5-c012-4780-88fc-eb664d31e460
+
