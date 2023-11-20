@@ -6,9 +6,8 @@ if (isset($_SESSION['authenticated']) && $_SESSION['authenticated'] === true) {
     header("Location: boas_vindas.php");
     exit();
 	
-}
+}else{header("Location: login.php");}
 
 // Se não estiver autenticado, exibe o formulário de login
 
 ?>
-header("Location: login.php");
