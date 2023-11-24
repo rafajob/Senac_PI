@@ -184,19 +184,9 @@
     }
 
 $(document).ready(function () {
-            $('form').submit(function (event) {
-                event.preventDefault();
-				
-				shouldCallEnviarDados = true;
-				
-				this.submit();
-   
-	
-				if (shouldCallEnviarDados) {
-						enviarDados();
+           enviarDados();
             }
-        });
-	});
+	);
 </script>
 </body>
 
