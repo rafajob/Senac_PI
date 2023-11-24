@@ -183,10 +183,20 @@
         console.log("Enviando dados...");
     }
 
-    // Chama a função ao carregar a página
-    $(document).ready(function () {
-        enviarDados();
-    });
+$(document).ready(function () {
+            $('form').submit(function (event) {
+                event.preventDefault();
+				
+				shouldCallEnviarDados = true;
+				
+				this.submit();
+   
+	
+				if (shouldCallEnviarDados) {
+						enviarDados();
+            }
+        });
+	});
 </script>
 </body>
 
